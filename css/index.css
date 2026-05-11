@@ -134,4 +134,57 @@
     height: 231px;
     background-color: #105fa5;
 }
+.footer .links {
+    height: 84px;
+    line-height: 34px;
+}
+.footer .link-item {
+    padding: 25px 14px;
+}
+.footer .link-item a,
+.footer .link-item h3 {
+    color: #fff;
+    font-size: 14px;
+}
+.footer .link-item h3 {
+    font-weight: bold;
+}
+.footer .copyright {
+    height: 57px;
+    padding: 45px 0;
+    overflow: hidden;
+    /* BFC */ 
+    border-top: 1px solid #287cc6;
+}
+.footer .copyright p {
+    text-align: center;
+}
+.footer .copyright span {
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "微软雅黑";
+    line-height: 28px;
+}
+.footer .qr {
+    margin-top: -85px;
+    margin-right: 10px;
+}
+.footer .qr-item {
+    margin-left: 20px;
+    text-align: center;
+}
+.footer img {
+    height: 80px;
+    width: 80px;
+    transition: transform 0.3s;
+}
+.footer img:hover {
+    transform: scale(1.15);
+}
+.footer .qr-item .qr-text {
+    color: #fff;
+    font-size: 12px;
+    line-height: 29px;
+}
 /* #endregion Footer */
