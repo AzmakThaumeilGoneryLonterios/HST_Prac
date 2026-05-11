@@ -120,8 +120,56 @@
 .main2 {
     height: 365px;
     background-image: url("../images/mainbd.png");
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
+}
+.main2 .container {
+    padding: 35px 0 40px;
+}
+.main2 .main2-item {
+    width: 350px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+.main2 .main2-item:last-child {
+    margin-right: 0;
+}
+.main2 .main2-item .title   {
+    height: 28px;
+    line-height: 28px;
+}
+.main2 .main2-item .title-text span {
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 15px 15px 0 0;
+    background: #bedcf6;
+    color: #105fa5;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.main2 .main2-item .more {
+    font-size: 14px;
+}
+.main2 .main2-item .more:hover {
+    color: gray;
+}
+.main2 .news-list {
+    padding: 6px 0;
+}
+.main2 .news-list li {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.main2 .news-list li a {
+    color: #3b3b3b;
+    font-size: 14px;
+}
+.main2 .news-list li .date {
+    font-size: 14px;
+    color: #999;
 }
 /* #endregion Main2 */
 /* #region Main3 */
