@@ -118,12 +118,17 @@
 /* #endregion Main1 */
 /* #region Main2 */
 .main2 {
-    height: 752px;
+    height: 365px;
     background-image: url("../images/mainbd.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 /* #endregion Main2 */
+/* #region Main3 */
+.main3 {
+    height: 752px;
+}
+/* #endregion Main3 */
 /* #region Footer */
 .footer {
     height: 231px;
