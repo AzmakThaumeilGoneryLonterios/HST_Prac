@@ -12,19 +12,89 @@
 .wrapper.topbar {
     background-color: #105fa5; 
 }
+/* #region Header */
 .topbar .header {
     height: 116px;
     background-image: url("../images/headerbd.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
+
 }
+.topbar .logo {
+    margin-top: 10px;
+}
+.topbar .search {
+    height: 24px;
+    border: 1px solid #d0d0d0;
+    margin-top: 50px;
+    font-size: 0;
+}
+.topbar .search input {
+    width: 110px;
+    height: 100%;
+    padding-left: 4px;
+    margin-right: 8px;
+    background-color: transparent;
+
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+}
+.topbar .search input::placeholder {
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: .6;
+}
+.topbar .search button {
+    height: 24px;
+    width: 32px;
+    background-color: transparent;
+    background-image: url(../images/search.png);
+    background-position: 2px -2px;
+    cursor: pointer;
+}
+.topbar .old {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+}
+/* #endregion Header */
+
+/* #region Nav */
 .topbar .nav { 
-    height: 51px;
+    height: 46px;
     background-image: url("../images/navbd.jpg");
     background-position: center;
     background-repeat: no-repeat;
     border-bottom: 5px solid #d6bd88;
 }
+.topbar .nav .container {
+    border-top: 1px solid #3977ae;
+}
+.topbar .nav-item {
+    width: 100px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+
+    transition: background-color 0.5s;
+}
+.topbar .nav-item a {
+    color: #fffefe;
+    text-align: center;
+    font-size: 16px;
+    line-height: 42px;
+}
+.topbar .nav-item:hover {
+    background-color: #1384e2;
+}
+
+
+/* #endregion Nav */
+
 /* #endregion Topbar */
 /* #region Banner */
 .banner { 
@@ -33,6 +103,10 @@
     background-position: center;
 }
 
+.banner img {
+    margin: 0 auto;
+    height: 435px;
+}
 /* #endregion Banner */
 /* #region Main1 */
 .main1 {
