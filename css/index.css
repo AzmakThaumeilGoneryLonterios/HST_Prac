@@ -1,0 +1,58 @@
+/* #region Base */
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+/* #endregion Base */
+/* #region Topbar */
+.wrapper.topbar {
+    background-color: #105fa5; 
+}
+.topbar .header {
+    height: 116px;
+    background-image: url("../images/headerbd.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.topbar .nav { 
+    height: 51px;
+    background-image: url("../images/navbd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #d6bd88;
+}
+/* #endregion Topbar */
+/* #region Banner */
+.banner { 
+    height: 435px;
+    background-image: url("../images/bannerbd.jpg");
+    background-position: center;
+}
+
+/* #endregion Banner */
+/* #region Main1 */
+.main1 {
+    height: 401px;
+    background-image: url("../images/mainbd.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+/* #endregion Main1 */
+/* #region Main2 */
+.main2 {
+    height: 752px;
+    background-image: url("../images/mainbd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* #endregion Main2 */
+/* #region Footer */
+.footer {
+    height: 231px;
+    background-color: #105fa5;
+}
+/* #endregion Footer */
