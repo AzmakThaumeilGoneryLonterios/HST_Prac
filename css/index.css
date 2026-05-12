@@ -7,6 +7,28 @@
     width: 1100px;
     margin: 0 auto;
 }
+.title   {
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 6px;
+}
+.title-text span {
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 15px 15px 0 0;
+    background: #bedcf6;
+    color: #105fa5;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.more {
+    font-size: 14px;
+}
+.more:hover {
+    color: gray;
+}
 /* #endregion Base */
 /* #region Topbar */
 .wrapper.topbar {
@@ -115,6 +137,143 @@
     background-position: center top;
     background-repeat: no-repeat;
 }
+.main1 .container {
+    padding-top: 25px;
+}
+.main1 .news {
+    width: 718px;
+    padding-top: 14px;
+}
+.main1 .news .con {
+    width: 350px;
+    height: 286px;
+    padding: 6px 0;
+}
+.main1 .news .con img {
+    width: 350px;
+}
+.main1 .news .con-title-bg {
+    width: 320px;
+    height: 45px;
+    background-color: #f1f1f1;
+    padding: 0 15px;
+    line-height: 45px;
+}
+.main1 .news .con-link {
+    color: #105fa5;
+    font-size: 16px;
+    transition: color 0.5s;
+}
+.main1 .news .con-link:hover {
+    color: #e5e5e5;
+}
+.main1 .news .post {
+    width: 340px;
+    height: 300px;
+}
+.main1 .news .news-text {
+    width: 340px;
+    height: 128px;
+    padding: 5px 0 13px;
+}
+.main1 .news-text .n1 {
+    height: 43px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #c7c7c7;
+}
+.main1 .news-text .n1 a {
+    color: #404040;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main1 .news-text .n2 {
+    height: 65px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #c7c7c7;
+}
+.main1 .news-text .n2 .t1 {
+    color: #404040;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main1 .news-text .n2 .tcon {
+    height: 22px;
+    padding: 5px 0 13px;
+}
+.main1 .news-text .tlink {
+    font-size: 13px;
+    color: #7a7a7a;
+    transition: color 0.5s;
+}
+.main1 .news-text .tlink:hover {
+    color: #105fa5;
+}
+.main1 .post-item {
+    height: 34px;
+    line-height: 34px;
+}
+.main1 .plink {
+    color: #3b3b3b;
+    font-size: 14px;
+    transition: color 0.5s;
+}
+.main1 .plink:hover {
+    color: #105fa5;
+}
+
+.main1 .inform {
+    width: 345px;
+    padding-top: 14px;
+}
+.main1 .inform-item {
+    height: 74px;
+    margin-bottom: 10px;
+    padding-bottom: 16px;
+}
+.main1 .inform-item:first-child {
+    margin-top: 10px;
+}
+.main1 .inform-item .date {
+    width: 72px;
+    height: 74px;
+}
+.main1 .inform-item .day {
+    width: 72px;
+    height: 41px;
+    line-height: 41px;
+    background-color: #004891;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+.main1 .inform-item:hover .day {
+    background-color: #d6bd88;
+}
+.main1 .inform-item .month {
+    width: 72px;
+    height: 31px;
+    line-height: 31px;
+    margin-top: 2px;
+    background-color: #e6e6e6;
+    font-size: 12px;
+    color: #737373;
+    text-align: center;
+} 
+
+.main1 .inform-item .inf-link {
+    width: 235px;
+    height: 66px;
+}
+.main1 .inform-item .inf-link a {
+    color: #3b3b3b;
+    font-size: 15px;
+    transition: color 0.5s;
+    line-height: 32px;
+}
+.main1 .inform-item .inf-link a:hover {
+    color: #105fa5;
+}
 /* #endregion Main1 */
 /* #region Main2 */
 .main2 {
@@ -133,27 +292,6 @@
 }
 .main2 .main2-item:last-child {
     margin-right: 0;
-}
-.main2 .main2-item .title   {
-    height: 28px;
-    line-height: 28px;
-}
-.main2 .main2-item .title-text span {
-    display: inline-block;
-    padding: 0 20px;
-    border-radius: 15px 15px 0 0;
-    background: #bedcf6;
-    color: #105fa5;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 28px;
-    cursor: pointer;
-}
-.main2 .main2-item .more {
-    font-size: 14px;
-}
-.main2 .main2-item .more:hover {
-    color: gray;
 }
 .main2 .news-list {
     padding: 6px 0;
