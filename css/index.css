@@ -10,7 +10,6 @@
 .title   {
     height: 28px;
     line-height: 28px;
-    margin-bottom: 6px;
 }
 .title-text span {
     display: inline-block;
@@ -143,6 +142,9 @@
 .main1 .news {
     width: 718px;
     padding-top: 14px;
+}
+.main1 .news .title {
+    margin-bottom: 6px;
 }
 .main1 .news .con {
     width: 350px;
@@ -304,6 +306,10 @@
 .main2 .news-list li a {
     color: #3b3b3b;
     font-size: 14px;
+    transition: color 0.5s;
+}
+.main2 .news-list li a:hover {
+    color: #105fa5;
 }
 .main2 .news-list li .date {
     font-size: 14px;
@@ -314,6 +320,87 @@
 .main3 {
     height: 752px;
 }
+.main3 .bar .title {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #cccccc;
+}
+/* #region Bar1*/ 
+.main3 .bar1 {
+    height: 288px;
+    margin-bottom: 25px;
+}
+.bar1 .scroll {
+    height: 220px;
+    padding: 6px 0;
+}
+/* #endregion Bar1*/ 
+
+/* #region Bar2*/ 
+.main3 .bar2 {
+    height: 236px;
+    margin-bottom: 10px;
+}
+.bar2 .intro {
+    height: 126px;
+    padding: 12px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    column-gap: 20px;  
+    align-content: flex-start;
+
+}
+.bar2 .intro-item {
+    width: 339px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #b9c9d7;
+    background: #ebf1f5;
+    text-align: center;
+    margin-bottom: 25px;
+    flex: 0 0 calc(33.333% - 20px);
+    cursor: pointer;
+}
+.bar2 .intro-item a {
+    font-size: 15px;
+    color: #3b3b3b;
+    transition: color 0.5s;
+}
+.bar2 .intro-item:hover a {
+    color: #105fa5;
+}
+.bar2 .more {
+    margin-top: 15px;
+    height: 15px;
+}
+/* #endregion Bar2*/ 
+
+/* #region Bar3*/ 
+.main3 .bar3 {
+    height: 153px;
+    margin: 30px 0 20px;
+}
+.bar3 .resource {
+    height: 85px;
+    padding: 6px 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    column-gap: 14px;
+}
+.bar3 .rss-item {
+    width: 145px;
+    height: 75px;
+    background-image: url(../images/rss1.png);
+    background-repeat: no-repeat;
+    font-size: 15px;
+    color: #3b3b3b;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 40px;
+}
+/* #endregion Bar3*/ 
+
 /* #endregion Main3 */
 /* #region Footer */
 .footer {
