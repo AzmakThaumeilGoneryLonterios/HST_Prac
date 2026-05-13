@@ -100,10 +100,12 @@
     height: 42px;
     text-align: center;
     line-height: 42px;
+    cursor: pointer;
 
     transition: background-color 0.5s;
+    position: relative;
 }
-.topbar .nav-item a {
+.topbar .nav-item .nav-link {
     color: #fffefe;
     text-align: center;
     font-size: 16px;
@@ -113,6 +115,40 @@
     background-color: #1384e2;
 }
 
+/* SubMenu */
+.nav .submenu {
+    position: absolute;
+    top: 42px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s;
+    width: auto;
+}
+.nav .nav-item:hover .submenu {
+    transform: scaleY(1);
+}
+.nav .sub-item {
+    background-color: #fff;
+    transition: background-color 0.5s;
+    width: auto;
+}
+.nav .sub-item:hover {
+    background-color: #1384e2;
+}
+.nav .nav-item .sub-link {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 17px;
+    transition: color 0.5s;
+    white-space: nowrap;
+}
+.nav .sub-item:hover .sub-link {
+    color: white;
+}
 
 /* #endregion Nav */
 
